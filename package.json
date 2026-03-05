@@ -1,0 +1,27 @@
+{
+  "name": "arena-exporter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bunx vite",
+    "build": "bunx vite build",
+    "preview": "bunx vite preview"
+  },
+  "dependencies": {
+    "idb": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "sql.js": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "@vitejs/plugin-react": "latest",
+    "tailwindcss": "latest",
+    "@tailwindcss/vite": "latest",
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
