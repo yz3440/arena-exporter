@@ -4,7 +4,7 @@ import Workspace from "./pages/Workspace";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/arena-exporter">
       <Routes>
         <Route element={<Layout />}>
           <Route path="*" element={<Workspace />} />
