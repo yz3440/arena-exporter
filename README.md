@@ -1,5 +1,7 @@
 # Are.na Exporter
 
+![Are.na Exporter](assets/hero.png)
+
 A local tool to sync your Are.na channels and export blocks as CSV, JSON, or SQLite.
 
 Everything runs in your browser. Your data is stored locally using [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) and is never sent to any external server. There is no backend.
